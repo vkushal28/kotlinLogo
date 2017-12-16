@@ -1,12 +1,15 @@
-.upperLeft {
+.upperTriangle {
     color:blue;
-    border-size:cover;
+    width: 0;
+    height: 0;
 }
-.middleHalf {
+.middleTrapezium {
     color:orange;
-    border-size:cover;
+    width: 0;
+    height: 0;
 }
-.bottomRight {
+.bottomEquiTriangle {
     color:purple;
-    border-size:cover;
+    width:0;
+    height: 0;
 }
