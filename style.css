@@ -1,3 +1,7 @@
+.container{
+    width: 120em;
+    height: 120em;
+}
 .upperTriangle {
     width: 0;
     height: 0;
