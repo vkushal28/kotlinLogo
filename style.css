@@ -1,9 +1,9 @@
 .upperTriangle {
     width: 0;
     height: 0;
-    border-bottom:80px;
-    border-left: 80px solid transparent;
-    border-right:80px solid transparent;
+    border-bottom: 84.84em solid orange;
+    border-left: 60em solid transparent;
+    border-right:60em solid transparent;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -11,13 +11,22 @@
     transform: rotate(-45deg);
 }
 .middleTrapezium {
-    width: 0;
     height: 0;
+    width: 120em;
+    border-bottom: 120em solid blue;
+    border-left: 60em solid transparent;
+    border-right: 60em solid transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
+
 .bottomEquiTriangle {
     width:0;
     height: 0;
-    border-bottom: 120px solid purple;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
+    border-bottom: 120em solid purple;
+    border-left: 120em solid transparent;
+    border-right: 120em solid transparent;
 }
