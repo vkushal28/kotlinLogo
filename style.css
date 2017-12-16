@@ -1,15 +1,20 @@
 .upperTriangle {
-    color:blue;
     width: 0;
     height: 0;
+    border-bottom:80px;
+    border-left: 80px solid transparent;
+    border-right:80px solid transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 .middleTrapezium {
-    color:orange;
     width: 0;
     height: 0;
 }
 .bottomEquiTriangle {
-    color:purple;
     width:0;
     height: 0;
     border-bottom: 120px solid purple;
