@@ -12,4 +12,7 @@
     color:purple;
     width:0;
     height: 0;
+    border-bottom: 120px solid purple;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
 }
